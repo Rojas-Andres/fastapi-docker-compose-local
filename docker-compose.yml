@@ -6,3 +6,8 @@ services:
       dockerfile: Dockerfile
     ports:
       - 8001:8001
+    volumes:
+      - ./app:/src/app/app
+      - app-data:/src/data
+volumes:
+  app-data:

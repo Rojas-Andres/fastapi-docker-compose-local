@@ -11,3 +11,6 @@
 
 - docker-compose up --force-recreate --build
 
+### Fix run.sh
+
+- dos2unix run.sh

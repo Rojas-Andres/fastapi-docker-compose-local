@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="OD Factoring, Facturas Disponibles",
-    description="Open Data - Servicio para obtener facturas disponible",
+    title="Testing FastAPI with Docker compose debug",
+    description="Testing FastApi with Docker compose",
 )
 
 
