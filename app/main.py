@@ -9,3 +9,8 @@ app = FastAPI(
 @app.get("/")
 async def root():
     return {"message": "melo"}
+
+@app.get("/melisismo")
+async def melisismo():
+    print("masdasdsad")
+    return {"message": "melisismo"}
